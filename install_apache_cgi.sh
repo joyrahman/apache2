@@ -1,5 +1,5 @@
 sudo apt-get install apache2 collectd git -y
-sudo apt-get install librrds-perl libconfig-general-perl libhtml-parser-perl  libregexp-common-perl
+sudo apt-get install librrds-perl libconfig-general-perl libhtml-parser-perl  libregexp-common-perl -y
 sudo /etc/init.d/collectd restart
 
 
