@@ -9,7 +9,7 @@ sudo cp -rf www/ /var/www
 sudo cp -rf sites-available/ sites-enabled/ /etc/apache2
 sudo cp -rf apache2.conf httpd.conf /etc/apache2/
 
-chmod a+x /var/www/collection3/bin/*.cgi
+sudo chmod a+x /var/www/collection3/bin/*.cgi
 
 sudo /etc/init.d/apache2 restart
 
