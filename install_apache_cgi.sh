@@ -5,7 +5,7 @@ sudo /etc/init.d/collectd restart
 
 git clone https://github.com/joyrahman/apache2.git
 cd apache2
-sudo cp -rf www/ /var/www
+sudo cp -rf www/ /var/
 sudo cp -rf sites-available/ sites-enabled/ /etc/apache2
 sudo cp -rf apache2.conf httpd.conf /etc/apache2/
 
